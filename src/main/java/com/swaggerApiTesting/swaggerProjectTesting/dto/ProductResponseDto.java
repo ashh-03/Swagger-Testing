@@ -16,6 +16,9 @@ import java.math.BigDecimal;
 //toString()
 
 
+
+//-----when call any field we call it as request.username not getUsername
+//-----record is immutable thats why it doesnt have setter method...
 public record ProductResponseDto(
 
         @Schema(
